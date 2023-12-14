@@ -1,6 +1,9 @@
+nav > ul{
+    display: flex;
+}
+
 nav li{
     list-style: none;
-    display: inline;
     margin: 5px;
     padding: auto;
 }
@@ -11,4 +14,13 @@ color: aqua;
 nav li:hover{
     color: blue;
     background-color: red;
+}
+nav .manu{
+    display: none;
+    position: absolute;
+    background-color: blue;
+    padding: 0;
+}
+nav li:hover > .manu{
+    display: block;
 }
