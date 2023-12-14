@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        label{
+            display: block;
+            margin: 20px 30px;
+        }
+    </style>
+</head>
+<body>
+    <h2>Welcome our new Webside</h2>
+    <form>
+        <label for="name">your name
+            <input type="text" placeholder="your name">
+        </label>
+        <label for="email">your email
+            <input type="email" placeholder="your email">
+        </label>
+        <label for="password">your name
+            <input type="password" placeholder="your password">
+        </label>
+        <fieldset>
+            <legend>Section your city</legend>
+            <label for="Dhaka">
+                <input type="radio" name="city" id="Dhaka">
+                Dhaka
+            </label>
+            <label for="Mymensingh">
+                <input type="radio" name="city" id="Mymensingh">
+                Mymensingh
+
+                </label>
+                <label for="sherpur">
+                    <input type="radio" name="city" id="sherpur">
+                    sherpur
+                    </label>
+        </fieldset>
+        <fieldset>
+           
+            <label for="seclect your favarout county">
+                <input type="radio" name="county" id="Bangladesh">
+                Bangladesh
+            </label>
+            <label for="seclect your favarout county">
+                <input type="radio" name="county" id="Chaina">
+                India
+            </label>
+             <label for="seclect your favarout county">
+                <legend>
+                <input type="radio" name="county" id="India">
+                India
+                </legend>
+         </label>
+        </fieldset>
+        <fieldset>
+            <legend>Special Instruction</legend>
+            <textarea name="" id="" cols="30" rows="10"></textarea>
+        </fieldset>
+        <input type="Reset" id="reset">
+        <input type="submit" id="submit">
+        </form>
+</body>
+</html>
